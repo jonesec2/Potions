@@ -1,6 +1,13 @@
 h1, h2, h3, h4, h5, h6 {
     color: rgba(184,179,100);
 }
+.navColor {
+    color: rgba(184,179,100) !important;
+}
+
+.form-control {
+    background-color: rgb(245, 240, 177);
+}
 body {
     background: rgba(184, 179, 100, 0.479) url(images/ricepaper2.png);
     /* background-color: rgba(184, 179, 100, 0.479) !important; */
@@ -18,7 +25,7 @@ h1 {
     top: 0px;
     position: fixed;
     width: 100%;
-    z-index: 11;
+    z-index: 99;
     display: block;
 }
 .navbar {
