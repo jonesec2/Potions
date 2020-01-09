@@ -42,7 +42,7 @@ h1 {
     background-color: rgb(184,179,100);
 }
 
-button {
+button, input {
     border-color: rgb(184,179,100) !important;
 }
 
@@ -50,6 +50,7 @@ button {
 .darkText {
     color: rgb(32,34,0) !important;
 }
+
 #titleHr {
     margin-bottom: 0px;
 }
@@ -59,9 +60,11 @@ button {
     top: 100px !important;
     z-index: 10;
 }
+
 #potionCard {
     background-color: white;
 }
+
 #buyMore {
     text-align: right !important;
 }
@@ -69,12 +72,15 @@ button {
 .btn-light {
     background-color: #FEF9F0;
 }
+
 .btn-light:hover {
     background-color: rgb(190, 184, 172);
 }
+
 .fas, .fa-coins {
     color: rgba(255, 215, 0);
 }
+
 #resource {
     text-align: left !important;
     line-height: 2 !important;
@@ -101,4 +107,4 @@ button {
     #buyMore {text-align: center !important;}
     #resource {text-align: center !important;}
   
-  }
+}
