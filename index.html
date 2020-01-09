@@ -21,86 +21,310 @@
 </head>
 
 <body>
-    <div class="fixed-wrapper">
-        <div class="navbar-container nav">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">
-                    <h4>Home</h4>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link navColor" href="index.html">Potions<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navColor" href="#">Home Brewin'</a>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Potion Search"
-                        aria-label="Mix Drink Search">
-                    <button class="btn navColor btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav>
-        </div>
-        <div class="text-center header">
-            <h1 class="darkText">Intermediate Potions</h1>
-            <h5 class="darkText">For the Intermediate Potioneer</h5>
-            <hr class="my-1">
-            <div class="container">
-                <div class="row ">
-                    <div id="buyMore" class="col-12 col-md-6"> Buy More Resources
-                        <button  type="button" class=" btn btn-light">Buy <i class="fas fa-coins"></i> </button>
+    <div class="layer">
+        <div class="fixed-wrapper">
+            <div class="navbar-container nav">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <h4>Home</h4>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link navColor" href="index.html">Potions<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navColor" href="#">Home Brewin'</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Potion Search"
+                                aria-label="Mix Drink Search">
+                            <button class="btn navColor btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                </nav>
+            </div>
+            <div class="text-center header">
+                <h1 class="darkText">Intermediate Potions</h1>
+                <h5 class="darkText">For the Intermediate Potioneer</h5>
+                <hr class="my-1">
+                <div class="container">
+                    <div class="row ">
+                        <div id="buyMore" class="col-12 col-md-6"> Buy More Resources
+                            <button id="buyButton" type="button" class="btn btn-light">Buy <i class="fas fa-coins"></i>
+                            </button>
+                        </div>
+                        <div id="resource" class="col-12 col-md-6">Available Resources: </div>
                     </div>
-                    <div id="resource" class="col-12 col-md-6"></div>
+                </div>
+                <hr class="mt-1 mb-0">
+            </div>
+        </div>
+
+        <div id="mainBody" class="container text-center px-0">
+            <div class="secret mt-2 mb-0 py-5">secret hidden text! You have been blessed!
+            </div>
+            <div class=" potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Healing Potion
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">Gain Hit Points // Difficulty: 1</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div  class="check col-12 col-md-6 mx-auto border"><button id="cost" type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 500 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
                 </div>
             </div>
-            <hr class="mt-1 mb-0">
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class=" check col-12 col-md-6 mx-auto border"><button id="cost" type="button" data-number="800"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="check col-12 col-md-6 mx-auto border"><button id="costTwo" type="button" data-number="800"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="potionCard border container mb-4 pb-4">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-8 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">???????????
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
+                        stuff loram impsum test n
+                        stuff loram
+                        impsum test n stuff</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
+                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">sdf</p>
+                        <p class="col-6"> sdfsd</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- <p class="my-5 py-5">thanks for checking out my potions page lul</p>
+            <div id="potion1"></div> -->
         </div>
     </div>
 
-    <!-- <div class="fixed-wrapper">
-        
-    </div> -->
-
-    <div id="mainBody" class="container text-center px-0">
-        <div class="secret mt-2 mb-0 py-5">secret hidden text! You have been blessed!
-        </div>
-        <div id="potionCard" class="border container">
-            <div class="row">
-                <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
-                    src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                <div class="row col-12 col-md-8 mt-3 mb-2">
-                    <h3 class="col-12 text-center mb-0">Healing Potion<hr id="titleHr"></h3>
-                    <h5 class="col-12">Gain Hit Points // Difficulty: X</h5>
-                </div>
-            </div>
-            <div class="row">
-                <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n stuff loram impsum test n
-                    stuff loram
-                    impsum test n stuff</p>
-                <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n stuff loram impsum test n
-                    stuff loram
-                    impsum test n stuff</p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500" class="btn btn-light">Resource Cost 500 <i class="fas fa-coins"></i></div>
-                <div class="row col-12 col-md-6 mx-auto border">
-                    <p class="col-6">sdf</p>
-                    <p class="col-6"> sdfsd</p>
-                </div>
-            </div>
-        </div>
-        <p class="my-5 py-5">loram impsum test n stuff loram impsum test n stuff loram impsum test n stuff loram
-            impsum test n stuff
-        </p>
-        <p></p>
-        <div id="potion1"></div>
-    </div>
+    <footer class="page-footer font-small">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright</div>
+    </footer>
 
 
 

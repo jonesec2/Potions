@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
     color: rgba(184,179,100);
 }
+
 .navColor {
     color: rgba(184,179,100) !important;
 }
@@ -8,10 +9,19 @@ h1, h2, h3, h4, h5, h6 {
 .form-control {
     background-color: rgb(245, 240, 177);
 }
-body {
-    background: rgba(184, 179, 100, 0.479) url(images/ricepaper2.png);
-    /* background-color: rgba(184, 179, 100, 0.479) !important; */
+
+html, body {
+    background: url(images/ricepaper2.png);
+    height: 100%;
+    margin: 0; 
 }
+
+.layer {
+    background-color: rgba(184, 179, 100, 0.192) !important;
+    height: fit-content;
+    margin: 0;
+}
+
 footer {
     background-color: #4d2b1a;
     color: white;
@@ -28,12 +38,11 @@ h1 {
     z-index: 99;
     display: block;
 }
+
 .navbar {
     background-color: rgba(32,34,0) !important;
 }
-/* .fixed-wrapper {
-    height: 100%;
-} */
+
 .header {
     top: 60px !important;
     position: fixed;
@@ -59,9 +68,10 @@ button, input {
     position: relative;
     top: 100px !important;
     z-index: 10;
+
 }
 
-#potionCard {
+.potionCard {
     background-color: white;
 }
 
@@ -97,6 +107,14 @@ button, input {
     height: 3px;
     margin: 0px;
 
+}
+
+footer {
+    background-color: rgba(32,34,0) !important;
+    position: relative;
+    z-index: 95;
+    bottom: 0px;
+    width: 100%;
 }
 
 @media (max-width: 400px) {
