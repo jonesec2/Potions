@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6 {
+    color: rgba(184,179,100);
+}
+body {
+    background: rgba(184, 179, 100, 0.479) url(images/ricepaper2.png);
+    /* background-color: rgba(184, 179, 100, 0.479) !important; */
+}
+footer {
+    background-color: #4d2b1a;
+    color: white;
+}
+
+h1 { 
+    text-align: center;
+}
+
+.nav {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+    display: block;
+}
+.navbar {
+    background-color: rgba(32,34,0) !important;
+}
+/* .fixed-wrapper {
+    height: 100%;
+} */
+.header {
+    top: 60px !important;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+    background-color: rgb(184,179,100);
+}
+
+button {
+    border-color: rgb(184,179,100) !important;
+}
+
+
+.darkText {
+    color: rgb(32,34,0) !important;
+}
+#titleHr {
+    margin-bottom: 0px;
+}
+
+#mainBody {
+    position: relative;
+    top: 100px !important;
+    z-index: 10;
+}
+#potionCard {
+    background-color: white;
+}
+#buyMore {
+    text-align: right !important;
+}
+
+.btn-light {
+    background-color: #FEF9F0;
+}
+.btn-light:hover {
+    background-color: rgb(190, 184, 172);
+}
+.fas, .fa-coins {
+    color: rgba(255, 215, 0);
+}
+#resource {
+    text-align: left !important;
+    line-height: 2 !important;
+}
+
+.picture {
+    width: 150px !important;
+    height: 150px;
+    max-width: 100%;
+    flex: none;
+}
+
+.cardHr {
+    height: 3px;
+    margin: 0px;
+
+}
+
+@media (max-width: 400px) {
+    .secret {margin-top: 80px !important;}
+}
+
+@media (max-width: 845px) {
+    #buyMore {text-align: center !important;}
+    #resource {text-align: center !important;}
+  
+  }
