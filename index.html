@@ -39,7 +39,7 @@
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navColor" href="#">Home Brewin'</a>
+                                <a class="nav-link navColor" href="brewin.html">Home Brewin'</a>
                             </li>
                         </ul>
                         <form class="form-inline">
@@ -50,12 +50,12 @@
                 </nav>
             </div>
             <div class="text-center header">
-                <h1 class="darkText">Intermediate Potions</h1>
-                <h5 class="darkText">For the Intermediate Potioneer</h5>
+                <h2 class="darkText">Intermediate Potions</h2>
+                <h5 class="subTitle darkText">For the Intermediate Potioneer</h5>
                 <hr class="my-1">
                 <div class="container">
                     <div class="row ">
-                        <div id="buyMore" class="col-12 col-md-6"> Buy More Resources
+                        <div id="buyMore" class="col-12 col-md-6"> More Resources
                             <button id="buyButton" type="button" class="btn btn-light">Buy <i class="fas fa-coins"></i>
                             </button>
                         </div>
@@ -71,254 +71,335 @@
             </div>
             <div class=" potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">Healing Potion
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Basic Healing Potion
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">Gain Hit Points // Difficulty: 1</h5>
+                        <h5 class="col-12">Gain Hit Points / Difficulty: 1</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> You regain hit points when you drink this potion. The
+                        number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table.
+                    </p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Healing | Common | 2d4 + 2 </p>
+                        <p> This potion is cheap and easy, but heals a tiny amount. It gives off a warm pink glow, and
+                            shimers in the sunlight</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div  class="check col-12 col-md-6 mx-auto border"><button id="cost" type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 500 <i class="fas fa-coins"></i></div>
+                    <div class="check col-12 col-md-6 mx-auto border"><button id="cost" type="button" data-number="30"
+                            class="btn btn-light">Resource Cost 30 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: One Day</p>
+                        <p class="col-6">Roll: DC 10</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Water Breathing
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">Breath under water for 1 hour / Difficulty: 1.3</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> You can breathe underwater for 1 hour after drinking
+                        this potion.</p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p>Perfect for when you know you want to be breathing AND under water at the same time</p>
+                        <p> Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="checkTwo col-12 col-md-6 mx-auto border"><button id="costTwo" type="button" data-number="100"
+                            class="btn btn-light">Resource Cost 100 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">Time: One Day</p>
+                        <p class="col-6">Roll: DC 13</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Philter of Love
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">Charm friend or foe / Difficulty: 1.8</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-12 col-md-6 mx-auto darkText"> The next time they see a creature within 10 minutes
+                        after drinking this philter, they become "charmed" by that creature for 1 hour. If the creature
+                        is of a species and gender you are normally attracted to, you regard it as your true love while
+                        you are charmed.</p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p>See the charmed spell information for more details</p>
+                        <p> This potion’s rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a
+                            heart.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="checkThree col-12 col-md-6 mx-auto border"><button id="costThree" type="button" data-number="120"
+                            class="btn btn-light">Resource Cost 120 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">Time: One Day</p>
+                        <p class="col-6">Roll: DC 16</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Greater Healing Potion
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                        <h5 class="col-12">Gain more hit points / Difficulty: 2</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> You regain hit points when you drink this potion. The
+                        number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table.
+                    </p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Healing | Uncommon | 4d4 + 4 </p>
+                        <p> This moderate potion will heal for a moderate amount. The potion’s shimery / pinkish liquid
+                            glimmers red when agitated.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class=" check col-12 col-md-6 mx-auto border"><button id="cost" type="button" data-number="800"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class=" checkFour col-12 col-md-6 mx-auto border"><button id="costFour" type="button" data-number="120"
+                            class="btn btn-light">Resource Cost 120 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: Three Days</p>
+                        <p class="col-6">Rolls: DC Total 36</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Hidden Poison
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                        <h5 class="col-12">A Potion of poison disguised as somthing innocuous / Difficulty: 2.3</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> If you drink it, you take 3d6 poison damage, and you
+                        must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your
+                        turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your
+                        turns, you can repeat the saving throw. On a successful save, the poison damage you take on your
+                        subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.
+                    </p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Save: Con 13 | 3d6 Poison </p>
+                        <p> This concoction looks, smells, and tastes like a potion
+                            of healing or other beneficial potion. However, it is actually poison masked by illusion
+                            magic.
+                            An identify spell reveals its true nature. </p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="check col-12 col-md-6 mx-auto border"><button id="costTwo" type="button" data-number="800"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class=" checkFive col-12 col-md-6 mx-auto border"><button id="costFive" type="button" data-number="90"
+                            class="btn btn-light">Resource Cost 90 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: Two Days</p>
+                        <p class="col-6">Rolls: DC Total 24</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Climbing
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                        <h5 class="col-12">A potion that makes climbing a peice of cake / Difficulty: 2.3</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> When you drink this potion, you gain a climbing speed
+                        equal to your walking speed for 1 hour. During this time, you have advantage on Strength
+                        (Athletics) checks you make to climb.
+                    </p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Climbing Speed Up, Adv on Athletics </p>
+                        <p> The potion is separated into brown, silver, and gray
+                            layers resembling bands of stone. Shaking the bottle fails to mix the colors. </p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class=" checkSix col-12 col-md-6 mx-auto border"><button id="costSix" type="button" data-number="100"
+                            class="btn btn-light">Resource Cost 100 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: Two Days</p>
+                        <p class="col-6">Rolls: DC Total 24</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Oil of Slipperiness
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">Become harder to catch or slip up foes / Difficulty: 2.5</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> The oil can cover a Medium or smaller creature. Applying the oil takes 10 minutes. The
+                            affected creature then gains the effect of a "freedom of movement" spell for 8 hours.</p>
+                        <p>Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot
+                            square, duplicating the effect of the "grease" spell in that area for 8 hours.</p>
+                    </div>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p>See the "freedom of movement" and "grease" spell information for more details</p>
+                        <p> This sticky black unguent is thick and heavy in the container, but it flows quickly when
+                            poured.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="checkSeven col-12 col-md-6 mx-auto border"><button id="costSeven" type="button" data-number="200"
+                            class="btn btn-light">Resource Cost 200 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">Time: Two Days</p>
+                        <p class="col-6">Rolls: DC 27</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class=" potionCard border container">
+                <div class="row">
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
+                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Resistance
+                            <hr id="titleHr">
+                        </h3>
+                        <h5 class="col-12">Resist a type of damage for one hour / Difficulty: 2.8</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> When you drink this potion, you gain resistance to one type of damage for 1 hour.</p>
+                        <p> Acid |
+                            Cold |
+                            Fire |
+                            Force |
+                            Lightning |
+                            Necrotic |
+                            Poison |
+                            Psychic |
+                            Radiant |
+                            Thunder</p>
+                    </div>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p>See the information on "resistance" for more details</p>
+                        <p> Depending on the type of potion, the look, taste and feel will vary. But rest assured, the
+                            potion will work! ... hopefully</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="checkEight col-12 col-md-6 mx-auto border"><button id="costEight" type="button" data-number="250"
+                            class="btn btn-light">Resource Cost 250 <i class="fas fa-coins"></i></div>
+                    <div class="row col-12 col-md-6 mx-auto border">
+                        <p class="col-6">Time: Two Days</p>
+                        <p class="col-6">Rolls: DC 30</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Giant Strength
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                        <h5 class="col-12">Be as Strong as Giant / Difficulty: 3.4</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <p class="col-12 col-md-6 mx-auto darkText"> When you drink this potion, your Strength score changes
+                        for 1 hour. The type of giant determines the score. This one is for the lowly, but fierce Hill
+                        Giant. But other, stronger versions exist.
+                    </p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Strength: 22 (+6) </p>
+                        <p> This potion’s transparent liquid has floating in it a sliver of fingernail from a Hill
+                            Giant... gross</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class=" checkNine col-12 col-md-6 mx-auto border"><button id="costNine" type="button" data-number="350"
+                            class="btn btn-light">Resource Cost 350 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: Three Days</p>
+                        <p class="col-6">Rolls: DC Total 39</p>
                     </div>
                 </div>
             </div>
             <br>
             <div class="potionCard border container">
                 <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
+                    <img class="img-fluid border picture float-left my-2 mx-4 col-6 mx-auto px-0"
                         src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
+                    <div class="row col-12 col-md-6 mt-3 mb-2">
+                        <h3 class="col-12 text-center mb-0">Potion of Mind Reading
                             <hr id="titleHr">
                         </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
+                        <h5 class="col-12">Detect Thoughts / Difficulty: 3.8</h5>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p>When you drink this potion, you gain the effect of the detect thoughts spell.</p>
+                        <p>See the "Detect Thoughts" spell for more details.</p>
+                    </div>
+                    <div class="col-12 col-md-6 mx-auto darkText">
+                        <p> Save: Wisdom 15 </p>
+                        <p> The potion’s dense, purple liquid has an ovoid cloud of pink floating in it.</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
+                    <div class=" checkTen col-12 col-md-6 mx-auto border"><button id="costTen" type="button" data-number="400"
+                            class="btn btn-light">Resource Cost 400 <i class="fas fa-coins"></i></div>
                     <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
+                        <p class="col-6">Time: Three Days</p>
+                        <p class="col-6">Rolls: DC Total 63</p>
                     </div>
                 </div>
             </div>
             <br>
-            <div class="potionCard border container">
-                <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
-                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
-                            <hr id="titleHr">
-                        </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
-                    <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="potionCard border container mb-4 pb-4">
-                <div class="row">
-                    <img class="img-fluid border picture float-left my-2 mx-4 col-4 mx-auto px-0"
-                        src="https://via.placeholder.com/150" style="width: 150px; height: 150px;" alt="potion">
-                    <div class="row col-12 col-md-8 mt-3 mb-2">
-                        <h3 class="col-12 text-center mb-0">???????????
-                            <hr id="titleHr">
-                        </h3>
-                        <h5 class="col-12">?????? // Difficulty: 2</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                    <p class="col-12 col-md-6 mx-auto darkText"> test test loram impsum test n stuff loram impsum test n
-                        stuff loram impsum test n
-                        stuff loram
-                        impsum test n stuff</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 mx-auto border"><button type="button" data-number="500"
-                            class="btn btn-light">Resource Cost 800 <i class="fas fa-coins"></i></div>
-                    <div class="row col-12 col-md-6 mx-auto border">
-                        <p class="col-6">sdf</p>
-                        <p class="col-6"> sdfsd</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <!-- <p class="my-5 py-5">thanks for checking out my potions page lul</p>
-            <div id="potion1"></div> -->
+            <p class="my-5 py-5">thanks for checking out my potions page lul</p>
+            <div id="potion1"></div>
         </div>
     </div>
 

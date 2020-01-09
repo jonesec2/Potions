@@ -43,8 +43,12 @@ h1 {
     background-color: rgba(32,34,0) !important;
 }
 
+.subTitle {
+    font-size: 1rem;
+}
+
 .header {
-    top: 60px !important;
+    top: 62px !important;
     position: fixed;
     width: 100%;
     z-index: 98;
@@ -101,6 +105,7 @@ button, input {
     height: 150px;
     max-width: 100%;
     flex: none;
+    box-shadow: 3px 3px rgb(102, 99, 55);
 }
 
 .cardHr {
