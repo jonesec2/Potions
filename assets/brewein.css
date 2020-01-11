@@ -12,8 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 
 html, body {
     background: url(images/ricepaper2.png);
-    height: 100%;
+    min-height: 100% !important;
     margin: 0; 
+    /* position: relative !important; */
 }
 
 .layer {
@@ -25,6 +26,8 @@ html, body {
 footer {
     background-color: #4d2b1a;
     color: white;
+    position: absolute !important;
+    bottom: 0 !important;
 }
 
 h1 { 
